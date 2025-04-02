@@ -40,23 +40,33 @@
                   </div>
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#programs">Bosh bo'lim</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">Biz haqimizda</a>
-                      </li>
-                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="testimonial.html">Mijozlar</a>
-                      </li> -->
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="package.html">Mahsulotlarimiz</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Aloqa</a>
-                      </li>
+                      <li class="rd-nav-item"><a id="home1" class="rd-nav-link" href="#programs">Bosh bo'lim</a></li>
+                      <li class="rd-nav-item"><a id="home2" class="rd-nav-link" href="about.html">Biz haqimizda</a></li>
+                      <li class="rd-nav-item"><a id="home3" class="rd-nav-link" href="package.html">Mahsulotlarimiz</a></li>
+                      <li class="rd-nav-item"><a id="home4" class="rd-nav-link" href="contact.html">Aloqa</a></li>
                     </ul>
+                  
+
+                     <!-- Til tanlash menyusi -->
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <img src="images/uzb.png" alt="UZ" class="flag-icon"> O'zbek
+                        </button>
+                        <ul class="lang-dropdown">
+                            <li><a href="#" data-lang="uz"><img src="images/UZB.png" class="flag-icon"> O'zbek</a></li>
+                            <li><a href="#" data-lang="en"><img src="images/usa.png" class="flag-icon"> English</a></li>
+                            <li><a href="#" data-lang="ru"><img src="images/rus.png" class="flag-icon"> Русский</a></li>
+                            <li><a href="#" data-lang="kz"><img src="images/kzk.png" class="flag-icon"> Қазақша</a></li>
+                        </ul>
+                    </div>
+                  
+
                   </div>
                 </div>
               </div>
               <button class="rd-navbar-aside-open-toggle" data-custom-toggle="#rd-navbar-aside"></button>
               <div class="rd-navbar-aside" id="rd-navbar-aside">
-                <h3>Biz bilan bog'lanish</h3>
+                <h3 id="home5">Biz bilan bog'lanish</h3>
 
                 <!--RD Mailform-->
                 <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
@@ -66,35 +76,36 @@
                         <!-- Select 2-->
                         <select class="form-input select" data-placeholder="Ichimlik ta'mini tanlang" data-constraints="@Required">
                           <option label="Choose a food package"></option>
-                          <option value="1">Olma</option>
-                          <option value="2">Banan</option>
-                          <option value="3">Anor</option>
-                          <option value="4">Kivi</option>
-                          <option value="5">Mango</option>
-                          <option value="6">Nok</option>
+                          <option id="home6" value="1">Olma</option>
+                          <option id="home7" value="2">Banan</option>
+                          <option id="home8" value="3">Anor</option>
+                          <option id="home9" value="4">Kivi</option>
+                          <option id="home10" value="5">Mango</option>
+                          <option id="home11" value="6">Nok</option>
                         </select>
                       </div>
                     </div>
+                    <img class="naqsh-4" src="images/naqsh-green-7-Photoroom.png" alt="">
                     <div class="col-12">
                       <div class="form-wrap">
                         <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                        <label class="form-label" for="contact-email">Elektron pochtangizni kiriting</label>
+                        <label id="home12" class="form-label" for="contact-email">Elektron pochtangizni kiriting</label>
                       </div>
                     </div>
                     <div class="col-12">
                       <div class="form-wrap">
                         <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric">
-                        <label class="form-label" for="contact-phone">Telefon raqam</label>
+                        <label id="home13" class="form-label" for="contact-phone">Telefon raqam</label>
                       </div>
                     </div>
                     <div class="col-12">
                       <div class="form-wrap">
-                        <label class="form-label" for="contact-message">Fikringgizni biz bilan bo'lishing</label>
+                        <label id="home14" class="form-label" for="contact-message">Fikringgizni biz bilan bo'lishing</label>
                         <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                       </div>
                     </div>
                     <div class="col-12">
-                      <button class="button button-primary" type="submit">Jo'natish</button>
+                      <button id="home15" class="button button-primary" type="submit">Jo'natish</button>
                     </div>
                   </div>
                 </form>
@@ -104,19 +115,19 @@
         </header>
         <!--Swiper-->
         <section class="section swiper-container swiper-slider bg-primary" data-autoplay="3500" data-loop="false" data-simulate-touch="false" data-effect="circle-bg" data-speed="750">
-          <div class="swiper-bg-text">micco</div>
+          <div id="home16" class="swiper-bg-text">micco</div>
           <div class="swiper-wrapper">
             <div class="swiper-slide" data-circle-cx=".855" data-circle-cy=".5" data-circle-r=".39">
               <div class="swiper-slide-caption section-md">
                 <div class="container">
                   <div class="row row-50 align-items-center swiper-custom-row">
                     <div class="col-lg-5">
-                      <h3 class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Sharbat bilan boyitilgan MICCO ichimliklari</h3>
-                      <h1 data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="1">MICCO – Quvvat manbai!</h1>
-                      <p class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Har bir tomchi Micco tanangizga kuch bag‘ishlab, kun davomida quvvat baxsh etadi.</p>
-                      <p class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Olma</p>
+                      <h3 id="home17" class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Sharbat bilan boyitilgan MICCO ichimliklari</h3>
+                      <h1 id="home18" data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="1">MICCO – Quvvat manbai!</h1>
+                      <p id="home19" class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Har bir tomchi Micco tanangizga kuch bag‘ishlab, kun davomida quvvat baxsh etadi.</p>
+                      <p id="home20" class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Nok</p>
                     </div>
-                    <div class="box-round-wrap"><img src="images/micco-olma.png" alt="" width="470" height="335" data-swiper-anime='{"animation":"swiperContentFade","duration":1000,"delay":1000}'/>
+                    <div class="box-round-wrap"><img src="images/micco-nok.png" alt="" width="470" height="335" data-swiper-anime='{"animation":"swiperContentFade","duration":1000,"delay":1000}'/>
                     </div>
                   </div>
                 </div>
@@ -127,10 +138,10 @@
                 <div class="container">
                   <div class="row row-50 align-items-center swiper-custom-row">
                     <div class="col-lg-5">
-                      <h3 class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Tabiiy Ta’m Manbai</h3>
-                      <h1 data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="2">Micco Ich, Tetiklan!</h1>
-                      <p class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Har bir qultum Micco tanangizga energiya bag‘ishlab, kun davomida quvvat beradi.</p>
-                      <p class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Anor</p>
+                      <h3 id="home21" class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Tabiiy Ta’m Manbai</h3>
+                      <h1 id="home22" data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="2">Micco Ich, Tetiklan!</h1>
+                      <p id="home23" class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Har bir qultum Micco tanangizga energiya bag‘ishlab, kun davomida quvvat beradi.</p>
+                      <p id="home24" class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Anor</p>
                     </div>
                     <div class="box-round-wrap"><img src="images/micoo-anor.png" alt="" width="470" height="335" data-swiper-anime='{"animation":"swiperContentFade","duration":1000,"delay":1000}'/>
                     </div>
@@ -143,10 +154,10 @@
                 <div class="container">
                   <div class="row row-50 align-items-center swiper-custom-row">
                     <div class="col-lg-5">
-                      <h3 class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Quvvat Va Tetiklik.</h3>
-                      <h1 data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="3">Micco Energiya Manbai</h1>
-                      <p class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Sovuq Micco iching va uning ajoyib ta’mi bilan rohatlaning va tetiklaning.</p>
-                      <p class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Kivi</p>
+                      <h3 id="home25" class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Quvvat Va Tetiklik.</h3>
+                      <h1 id="home26" data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="3">Micco Energiya Manbai</h1>
+                      <p id="home27" class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Sovuq Micco iching va uning ajoyib ta’mi bilan rohatlaning va tetiklaning.</p>
+                      <p id="home28" class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Kivi</p>
                     </div>
                     <div class="box-round-wrap"><img src="images/micco-kivi.png" alt="" width="470" height="335" data-swiper-anime='{"animation":"swiperContentFade","duration":1000,"delay":1000}'/>
                     </div>
@@ -159,10 +170,10 @@
                 <div class="container">
                   <div class="row row-50 align-items-center swiper-custom-row">
                     <div class="col-lg-5">
-                      <h3 class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Har Qultumda Lazzat!</h3>
-                      <h1 data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="4">Micco Bilan Jonlan!</h1>
-                      <p class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>tetiklashtiruvchi</p>
-                      <p class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Mango</p>
+                      <h3 id="home29" class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Har Qultumda Lazzat!</h3>
+                      <h1 id="home30" data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="4">Micco Bilan Jonlan!</h1>
+                      <p id="home31" class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>tetiklashtiruvchi</p>
+                      <p id="home32" class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Mango</p>
                     </div>
                     <div class="box-round-wrap"><img src="images/micco-mango.png" alt="" width="470" height="335" data-swiper-anime='{"animation":"swiperContentFade","duration":1000,"delay":1000}'/>
                     </div>
@@ -176,10 +187,10 @@
                 <div class="container">
                   <div class="row row-50 align-items-center swiper-custom-row">
                     <div class="col-lg-5">
-                      <h3 class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Sog‘lom Tanlov Micco!</h3>
-                      <h1 data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="5">Micco – Sof Ta’m</h1>
-                      <p class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Micco ichimligi organizmni suv bilan to‘yintiradi va salomatligingizni qo‘llab-quvvatlaydi.</p>
-                      <p class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Banan</p>
+                      <h3 id="home33" class="subtitle" data-swiper-anime='{"animation":"swiperContentRide","duration":900,"delay":900}'>Sog‘lom Tanlov Micco!</h3>
+                      <h1 id="home34" data-swiper-anime='{"animation":"swiperContentRide","duration":1000,"delay":1000}' data-subtext="5">Micco – Sof Ta’m</h1>
+                      <p id="home35" class="big" data-swiper-anime='{"animation":"swiperContentRide","duration":1100,"delay":1100}'>Micco ichimligi organizmni suv bilan to‘yintiradi va salomatligingizni qo‘llab-quvvatlaydi.</p>
+                      <p id="home36" class="postitle" data-swiper-anime='{"animation":"swiperContentRide","duration":1200,"delay":1200}'>Banan</p>
                     </div>
                     <div class="box-round-wrap"><img src="images/micco-banan.png" alt="" width="470" height="335" data-swiper-anime='{"animation":"swiperContentFade","duration":1000,"delay":1000}'/>
                     </div>
@@ -199,23 +210,26 @@
             <div class="col-xl-6 col-lg-6">
               <div class="box-custom-2"><img src="images/anor.png" alt="" width="500" height="142"/>
                 <div class="box-custom-2-smal">
-                  <p class="box-custom-2-name">Anor</p>
+                  <p id="home37" class="box-custom-2-name">Anor</p>
                   <p class="box-custom-2-position"></p>
                 </div>
               </div>
             </div>
             <div style="padding-bottom: 50px;" class="col-xl-5 col-lg-6">
               <div class="box-custom-1">
-                <h3>Biz haqimizda</h3>
-                <h2><br>Jonlantiruvchi Sof Ichimlik</h2>
-                <p>Micco ichimligi tabiiy tarkibga ega bo‘lib, tanangizni tetiklantiradi, energiya beradi va sog‘lom hayot uchun yordam beradi.</p>
+                <h3 id="home38">Biz haqimizda</h3>
+                <h2 id="home39"><br>Jonlantiruvchi Sof Ichimlik</h2>
+                <p id="home40">Micco ichimligi tabiiy tarkibga ega bo‘lib, tanangizni tetiklantiradi, energiya beradi va sog‘lom hayot uchun yordam beradi.</p>
                 <ul class="list-marked">
-                  <li>Salqin holda quyuladi</li>
-                  <li>Mahsulot uchun belgilangan narx bozor narxida</li> 
-                  <li>Alkogolsiz gazlanmagan tabiiy sharbat bilan boyitilgan</li>
+                  <li id="home41">Qaynoq holda quyiladi.</li>
+                  <li id="home42">Mahsulot uchun belgilangan narx bozor narxida</li> 
+                  <li id="home43">Alkogolsiz, gazlanmagan tabiiy sharbat bilan boyitilgan</li>
                 </ul><a class="button button-primary" href="about.html">Ba'tafsil</a>
               </div>
             </div>
+            <img class="naqsh-1" src="images/naqsh-green-7-Photoroom.png" alt="">
+            <img class="naqsh-2" src="images/naqsh-green-2-Photoroom.png" alt="">
+            <img class="naqsh-3" src="images/naqsh-green-6-Photoroom.png" alt="">
           </div>
         </div>
       </section>
@@ -224,8 +238,8 @@
       <section id="produkt" class="section novi-bg novi-bg-img section-md-4 bg-primary">
         <div class="container">
           <div class="text-center">
-            <h3>Tabiiy Tomchilar</h3>
-            <h2>Mahsulotlarimiz</h2>
+            <h3 id="home44">Tabiiy Tomchilar</h3>
+            <h2 id="home45">Mahsulotlarimiz</h2>
           </div>
           <div class="row row-50 justify-content-center">
             <div class="col-xl-4 col-md-6">
@@ -237,9 +251,10 @@
                     <div class="product-price-currency"></div>
                     <div class="product-price-value"></div>
                   </div>
-                  <div class="product-price-footer">Kivi</div>
+                  <div id="home46" class="product-price-footer">Kivi</div>
                 </div>
-                <p class="product-text">Micco<br>Alkogolsiz, gazlanmagan, pasterizatorlangan, tabiiy sharbat bilan boyitilgan «Micco» ichimligi.</p><a class="button button-primary" href="micco-kivi.html">Kirish</a>
+                <p id="home47" class="product-text">Micco<br>Alkogolsiz, gazlanmagan, pasteriziyatsilangan, tabiiy sharbat bilan boyitilgan «Micco» ichimligi.</p>
+                <a id="home471" class="button button-primary" href="micco-kivi.html">Kirish</a>
                 <div><a class="link-border" href="#"></a></div>
               </div>
             </div>
@@ -252,9 +267,10 @@
                     <div class="product-price-currency"></div>
                     <div class="product-price-value"></div>
                   </div>
-                  <div class="product-price-footer">Anor</div>
+                  <div id="home48" class="product-price-footer">Anor</div>
                 </div>
-                <p class="product-text">Micco<br>Alkogolsiz, gazlanmagan, pasterizatorlangan, tabiiy sharbat bilan boyitilgan «Micco» ichimligi.</p><a class="button button-primary" href="micco-anor.html">Kirish</a>
+                <p id="home49" class="product-text">Micco<br>Alkogolsiz, gazlanmagan, pasteriziyatsilangan, tabiiy sharbat bilan boyitilgan «Micco» ichimligi.</p>
+                <a class="button button-primary" href="micco-anor.html">Kirish</a>
                 <div><a class="link-border" href="#"></a></div>
               </div>
             </div>
@@ -267,9 +283,9 @@
                     <div class="product-price-currency"></div>
                     <div class="product-price-value"></div>
                   </div>
-                  <div class="product-price-footer">Olma</div>
+                  <div id="home50" class="product-price-footer">Olma</div>
                 </div>
-                <p class="product-text">Micco<br>Alkogolsiz, gazlanmagan, pasterizatorlangan, tabiiy sharbat bilan boyitilgan «Micco» ichimligi.</p><a class="button button-primary" href="micco-olma.html">Kirish</a>
+                <p id="home51" class="product-text">Micco<br>Alkogolsiz, gazlanmagan, pasteriziyatsilangan, tabiiy sharbat bilan boyitilgan «Micco» ichimligi.</p><a class="button button-primary" href="micco-olma.html">Kirish</a>
                 <div><a class="link-border" href="micco-olma.html"></a></div>
               </div>
             </div>
@@ -277,71 +293,71 @@
         </div>
       </section>
 
-      <!-- 360 gr animation -->
+      
 
-      <section>
-        
-        
-        
-      </section>
-
-        <!-- How it Works-->
+        <!-- How it Works -->
         <section class="section novi-bg novi-bg-img section-md-2 bg-default">
           <div class="container">
+            <img class="naqsh-6" src="images/naqsh-green-3-Photoroom.png" alt="">
+            <img class="naqsh-7" src="images/naqsh-10.png" alt="">
+            
             <div class="text-center">
-              <h3>Qanday ishlaymiz</h3>
-              <h2>Micco milliy mahsulotimizning tayyorlanish jarayoni.</h2>
+              <h3 id="home52">Qanday ishlaymiz</h3>
+              <h2 id="home53">Micco milliy mahsulotimizning tayyorlanish jarayoni.</h2>
             </div>
-            <div class="row row-50 post-classic-counter justify-content-lg-between justify-content-center">
-              <div class="col-lg-4 col-sm-6">
+
+            <div class="row post-classic-counter justify-content-center">
+              
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="post-classic novi-bg bg-secondary-3">
-                  <h3 class="post-classic-title">1-Bosqich <br>yer osti tabiiy artesian suvlarini qazib olish.</h3>
-                  <p class="post-classic-text"></p>
+                  <h3 id="home54" class="post-classic-title">1-Bosqich <br>Yer osti tabiiy artesian suvlarini qazib olish.</h3>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-sm-6">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="post-classic novi-bg bg-secondary-3">
-                  <h3 class="post-classic-title">Micco ichimligi 5 bosqichli filtrdan o‘tib, yuqori tozalik va xavfsizlikni ta’minlaydi.</h3>
-                  <p class="post-classic-text"></p>
-                </div>
-              </div>
-              
-              <div class="col-lg-4 col-sm-6">
-                <div class="post-classic novi-bg bg-secondary-1">
-                  <h3 class="post-classic-title">Bosqichlar.<br></h3>
-                  <p class="post-classic-text">-chig'anoq filtri <br>
-                    - ko'mir. kartij <br>
-                    - kartrij <br>
-                    - Osmoz membranasi <br>
-                    - ultrabinafsha</p>
+                  <h3 id="home55" class="post-classic-title">Micco ichimligi 5 bosqichli filtrdan o‘tib, yuqori tozalik va xavfsizlikni ta’minlaydi.</h3>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <div class="post-classic novi-bg bg-secondary-3">
-                  <h3 class="post-classic-title">2-Bosqich<br>Pasterizatsiya</h3>
-                  <p class="post-classic-text">Bu bosqichda filterlardan o'tgan tabiiy suv kerakli ingredientlar, aroma va tabiiy sharbat bilan boyitilib 93-95 daraja qaynatiladi.</p>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="post-classic novi-bg bg-secondary-1">
+                  <h3 id="home56" class="post-classic-title">Bosqichlar.</h3>
+                  <p id="home57" class="post-classic-text">
+                    - Chig'anoq filtri <br>
+                    - Ko'mir filtri <br>
+                    - Kartrij <br>
+                    - Osmos membranasi <br>
+                    - Ultrabinafsha filtri
+                  </p>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-sm-6">
-                <div class="post-classic novi-bg bg-secondary-1">
-                  <h3 class="post-classic-title">3-Bosqich Qadoqlash <br></h3>
-                  <p class="post-classic-text">4. Tayyor bulgan mahsulot 0,5 va 1 litr hajmli plastik idishlarga qaynoq holatda quyiladi.</p>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="post-classic novi-bg bg-secondary-3">
+                  <h3 id="home58" class="post-classic-title">2-Bosqich<br>Pasterizatsiya</h3>
+                  <p id="home59" class="post-classic-text">Bu bosqichda filterlardan o'tgan tabiiy suv kerakli ingredientlar, aroma va tabiiy sharbat bilan boyitilib 93-95 daraja qaynatiladi.</p>
                 </div>
               </div>
-              
-              <div class="col-lg-4 col-sm-6">
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="post-classic novi-bg bg-secondary-1">
-                  <h3 class="post-classic-title">4. TAYYOR BO'LGAN MAHSULOTNI SOVUQ HOLATDA SAQLASH <br></h3>
-                  <p class="post-classic-text">Quyilgan mahsulotni sovuq holatda saqlang. Bu, mahsulotning sifatini saqlab turish va uzuq muddatga saqlanish imkoniyatini ta'minlaydi.</p>
+                  <h3 id="home60" class="post-classic-title">3-Bosqich Qadoqlash</h3>
+                  <p id="home61" class="post-classic-text">Tayyor bo'lgan mahsulot 0,5 va 1 litr hajmli plastik idishlarga qaynoq holatda quyiladi.</p>
                 </div>
               </div>
-              
+
+              <!-- <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="post-classic novi-bg bg-secondary-1">
+                  <h3 class="post-classic-title">4. Tayyor bo'lgan mahsulotni sovuq holatda saqlash</h3>
+                  <p class="post-classic-text">Quyilgan mahsulotni sovuq holatda saqlang. Bu, mahsulotning sifatini saqlab turish va uzoq muddatga saqlanish imkoniyatini ta'minlaydi.</p>
+                </div>
+              </div> -->
+
             </div>
           </div>  
         </section>
+
 
       <!-- Advantages-->
       <section class="section novi-bg novi-bg-img section-custom section-lg bg-primary">
@@ -353,36 +369,36 @@
                   <div class="box-icon">
                     <div class="box-icon-header">
                       <div class="icon novi-icon icon-lg linearicons-diamond2"></div>
-                      <h3 class="box-icon-title">TETIKLIK</h3>
+                      <h3 id="home62" class="box-icon-title">TETIKLIK</h3>
                     </div>
-                    <p class="box-icon-text">Micco tabiiy tarkibi bilan sizga energiya va tetiklik baxsh etadi. Har kuningizni kuch bilan boshlang.</p>
+                    <p id="home621" class="box-icon-text">Micco tabiiy tarkibi bilan sizga energiya va tetiklik baxsh etadi. Har kuningizni kuch bilan boshlang.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="box-icon">
                     <div class="box-icon-header">
                       <div class="icon novi-icon icon-lg linearicons-leaf"></div>
-                      <h3 class="box-icon-title">TABIIY</h3>
+                      <h3 id="home63" class="box-icon-title">TABIIY</h3>
                     </div>
-                    <p class="box-icon-text">Micco faqat tabiiy mevalardan tayyorlanadi. Sof tarkib va sun’iy qo‘shimchalarsiz ichimlik bilan tanangizni himoya qiling.</p>
+                    <p id="home64" class="box-icon-text">Micco faqat tabiiy mevalardan tayyorlanadi. Sof tarkib va sun’iy qo‘shimchalarsiz ichimlik bilan tanangizni himoya qiling.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="box-icon">
                     <div class="box-icon-header">
                       <div class="icon novi-icon icon-lg linearicons-chef"></div>
-                      <h3 class="box-icon-title">LAZZATLI</h3>
+                      <h3 id="home65" class="box-icon-title">LAZZATLI</h3>
                     </div>
-                    <p class="box-icon-text">Har bir qultum Micco o‘ziga xos ta’mi bilan sizga yoqimli zavq bag‘ishlaydi. Uning sof lazzatidan bahramand bo‘ling.</p>
+                    <p id="home66" class="box-icon-text">Har bir qultum Micco o‘ziga xos ta’mi bilan sizga yoqimli zavq bag‘ishlaydi. Uning sof lazzatidan bahramand bo‘ling.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="box-icon">
                     <div class="box-icon-header">
                       <div class="icon novi-icon icon-lg linearicons-egg2"></div>
-                      <h3 class="box-icon-title">TURFA XIL</h3>
+                      <h3 id="home67" class="box-icon-title">TURFA XIL</h3>
                     </div>
-                    <p class="box-icon-text">Micco turli mevali ta’mlari bilan sizga har safar yangi lazzat baxsh etadi. O‘zingizga yoqqanini tanlang va rohatlaning.</p>
+                    <p id="home68" class="box-icon-text">Micco turli mevali ta’mlari bilan sizga har safar yangi lazzat baxsh etadi. O‘zingizga yoqqanini tanlang va rohatlaning.</p>
                   </div>
                 </div>
               </div>
@@ -390,14 +406,14 @@
           </div>
         </div>
         <div class="box-custom-3">
-          <div class="box-custom-3-img-wrap"><img src="images/kivi.png" alt="" width="300" height="187"/>
+          <!-- <div class="box-custom-3-img-wrap"><img src="images/kivi.png" alt="" width="300" height="187"/>
           </div>
           <div class="box-custom-3-img-wrap"><img src="images/micco-apple-2.png" alt="" width="300" height="146"/>
+          </div> -->
+          <div class="box-custom-3-img-wrap"><img src="images/nok.png" alt="" width="600" height="203"/>
           </div>
-          <div class="box-custom-3-img-wrap"><img src="images/micco-nok.png" alt="" width="500" height="203"/>
-          </div>
-          <div class="box-custom-3-img-wrap"><img src="images/micco-olma.png" alt="" width="400" height="95"/>
-          </div>
+          <!-- <div class="box-custom-3-img-wrap"><img src="images/micco-olma.png" alt="" width="400" height="95"/>
+          </div> -->
         </div>
       </section>
 
@@ -406,6 +422,8 @@
         <div class="container">
           <div class="row row-40 align-items-center">
             <div class="col-lg-6">
+              <img class="naqsh-5" src="images/naqsh-8-Photoroom.png" alt="">
+              <img class="naqsh-8" src="images/naqsh-blue-1-Photoroom.png" alt="">
               <div class="owl-pagination-custom" id="owl-pagination-custom">
                 <div class="data-dots-custom" data-owl-item="0"><img src="images/uzbek-gril.jpeg" alt="" width="200" height="89"/>
                 </div>
@@ -416,24 +434,24 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <h3>mijozlarimiz nima deyishadi</h3>
-              <h2>Izohlar</h2>
+              <h3 id="home69">Mijozlarimiz nima deyishadi</h3>
+              <h2 id="home70">Izohlar</h2>
               <!-- Owl Carousel-->
               <div class="quote-classic-wrap">
                 <div class="quote-classic-img"><img src="images/green sngs.png" alt="" width="37" height="14"/>
                 </div>
                 <div class="owl-carousel owl-carousel-classic" data-items="1" data-dots="true" data-loop="false" data-autoplay="false" data-mouse-drag="false" data-dots-custom="#owl-pagination-custom">
                   <div class="quote-classic">
-                    <p class="big">Micco ichimligini birinchi marta sinab ko‘rganimda uning tabiiy ta’mi va yoqimli tetiklantiruvchi xususiyatlari menga juda yoqdi. Endi har kuni ichaman!</p>
-                    <h3 class="quote-classic-name">Erkinova Soliha</h3>
+                    <p id="home71" class="big">Micco ichimligini birinchi marta sinab ko‘rganimda uning tabiiy ta’mi va yoqimli tetiklantiruvchi xususiyatlari menga juda yoqdi. Endi har kuni ichaman!</p>
+                    <h3 id="home72" class="quote-classic-name">Erkinova Soliha</h3>
                   </div>
                   <div class="quote-classic">
-                    <p class="big">Micco ichimligi energiya va tetiklik baxsh etadi. Ish kunim davomida charchamaslik uchun doimo yonimda bo‘ladi. Uning tabiiy ta’mi juda yoqimli!</p>
-                    <h3 class="quote-classic-name">Akbarov Jasur</h3>
+                    <p id="home73" class="big">Micco ichimligi energiya va tetiklik baxsh etadi. Ish kunim davomida charchamaslik uchun doimo yonimda bo‘ladi. Uning tabiiy ta’mi juda yoqimli!</p>
+                    <h3 id="home74" class="quote-classic-name">Akbarov Jasur</h3>
                   </div>
                   <div class="quote-classic">
-                    <p class="big">Men sog‘lom turmush tarziga amal qilaman, shuning uchun faqat tabiiy ichimliklar ichaman. Micco tarkibida sun’iy qo‘shimchalar yo‘qligi meni juda quvontiradi!</p>
-                    <h3 class="quote-classic-name">Yuldosheva Malika</h3>
+                    <p id="home75" class="big">Men sog‘lom turmush tarziga amal qilaman, shuning uchun faqat tabiiy ichimliklar ichaman. Micco tarkibida sun’iy qo‘shimchalar yo‘qligi meni juda quvontiradi!</p>
+                    <h3 id="home76" class="quote-classic-name">Yuldosheva Malika</h3>
                   </div>
                 </div>
               <!-- </div><a class="button button-primary button-sm" href="#">Send Your Review</a> -->
@@ -448,13 +466,13 @@
 <div class="container-xxl py-5">
   <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-      <h6 class="section-title bg-white text-center text-primary px-3">Aloqa</h6>
-      <h1 class="mb-5">Biz bilan bog'lanish</h1>
+      <h6 id="home77" class="section-title bg-white text-center text-primary px-3">Aloqa</h6>
+      <h1 id="home78" class="mb-5">Biz bilan bog'lanish</h1>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-        <h5> Hamkorlik uchun</h5>
-        <p class="mb-4">Hamkorligimiz orqali yangi imkoniyatlar ochiladi.</p>
+        <h5 id="home79">Hamkorlik uchun</h5>
+        <p id="home80" class="mb-4">Hamkorligimiz orqali yangi imkoniyatlar ochiladi.</p>
         <form>
           <div class="row g-3">
             <div class="col-md-6">
@@ -476,7 +494,7 @@
               </div>
             </div>
             <div class="col-12">
-              <button class="btn btn-primary w-100 py-3" type="submit">XABAR YUBORISH</button>
+              <button id="home81" class="btn btn-primary w-100 py-3" type="submit">XABAR YUBORISH</button>
             </div>
           </div>
         </form>
@@ -498,6 +516,8 @@
 <footer class="section footer-classic">
   <div class="container">
     <div class="row row-50 justify-content-between">
+      <img class="naqsh-9" src="images/naqsh-10.png" alt="">
+      <img class="naqsh-10" src="images/naqsh-11.png" alt="">
       <div class="col-xl-3 col-md-6">
         <!--Brand-->
         <a class="brand" href="index.html">
@@ -506,25 +526,25 @@
         </a>
       </div>
       <div class="col-xl-3 col-md-6">
-        <p class="footer-classic-title">Aloqa</p>
+        <p id="home82" class="footer-classic-title">Aloqa</p>
         <ul class="footer-classic-list">
           <li>
             <ul>
               <li>
                 <dl class="footer-classic-dl">
-                  <dt>Tel..</dt>
+                  <dt id="home83">Tel..</dt>
                   <dd><a href="tel:#">+998-95 144 06 07</a></dd>
                 </dl>
               </li>
               <li>
                 <dl class="footer-classic-dl">
-                  <dt>Email..</dt>
+                  <dt id="home84">Email..</dt>
                   <dd><a href="mailto:#">Info@demolink.org</a></dd>
                 </dl>
               </li>
             </ul>
           </li>
-          <li><a href="#">Manzil: Toshkent shahar Yangi Hayot tumani Yo'ldosh-10 mavzesi 63-A uy</a></li>
+          <li><a id="home85" href="#">Manzil: Toshkent shahar Yangi Hayot tumani Yo'ldosh-10 mavzesi 63-A uy</a></li>
           <li>
             <ul class="group group-sm footer-classic-social-list">
               <li><a class="link-social" href="#"><div class="icon novi-icon mdi mdi-facebook"></div></a></li>
@@ -536,28 +556,28 @@
         </ul>
       </div>
       <div class="col-xl-2 col-md-6">
-        <p class="footer-classic-title">Bo'limlar</p>
+        <p id="home86" class="footer-classic-title">Bo'limlar</p>
         <ul class="footer-classic-nav">
-          <li><a href="about.html">Biz haqimizda</a></li>
-          <li><a href="package.html">Mahsulotlarimiz</a></li>
-          <li><a href="testimonial.html">Mijozlar</a></li>
-          <li><a href="contact.html">Aloqa</a></li>
+          <li><a id="home87" href="about.html">Biz haqimizda</a></li>
+          <li><a id="home88" href="package.html">Mahsulotlarimiz</a></li>
+          <li><a id="home89" href="testimonial.html">Mijozlar</a></li>
+          <li><a id="home90" href="contact.html">Aloqa</a></li>
         </ul>
       </div>
       <div class="col-xl-2 col-md-6">
-        <p class="footer-classic-title">Micco mahsulotlari</p>
+        <p id="home91" class="footer-classic-title">Micco mahsulotlari</p>
         <ul class="footer-classic-nav">
-          <li><a href="micco-anor.html">micco-Anor</a></li>
-          <li><a href="micco-olma.html">micco-Olma</a></li>
-          <li><a href="micco-kivi.html">micco-Kivi</a></li>
-          <li><a href="micco-mango.html">micco-Mango</a></li> 
+          <li><a id="home92" href="micco-anor.html">micco-Anor</a></li>
+          <li><a id="home93" href="micco-olma.html">micco-Olma</a></li>
+          <li><a id="home94" href="micco-kivi.html">micco-Kivi</a></li>
+          <li><a id="home95" href="micco-mango.html">micco-Mango</a></li> 
         </ul>
       </div>
     </div>
     <div class="text-center mt-4">
       <p class="rights">
         <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span>
-        <span>Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish 
+        <span id="home96">Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish 
         <a href="https://www.smkweb.com/" target="_blank">SMK WEB</a></span>
       </p>
     </div>
@@ -580,6 +600,9 @@
       } 
 </script> -->
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- translet js -->
+<script src="translet-js/index.js"></script>
 
 
   </body>

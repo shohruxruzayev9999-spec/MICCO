@@ -627,6 +627,7 @@ a[href*='tel'], a[href*='mailto'] {
 	text-align: center;
 	position: relative;
 	overflow: hidden;
+	z-index: 99;
 }
 
 .box-custom-2 img {
@@ -757,6 +758,9 @@ h3.box-icon-title {
 
 .box-custom-3-img-wrap {
 	position: absolute;
+	margin-top: -20px;
+	margin-left: 0px;
+	transform: rotate(20deg);
 }
 
 .box-custom-3-img-wrap img {
@@ -3573,7 +3577,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle {
 	display: inline-block;
 	position: relative;
-	width: 48px;
+	width: 48px;	
 	height: 48px;
 	line-height: 48px;
 	cursor: pointer;
@@ -3746,7 +3750,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-aside-open-toggle {
 	position: fixed;
-	top: 35px;
+	top: 12px;
 	right: 53px;
 	width: 74px;
 	height: 74px;
@@ -4679,6 +4683,7 @@ html.tablet .ui-to-top {
 html.rd-navbar-fixed-linked header {
 	height: 56px;
 }
+
 
 /**
 *
@@ -5916,3 +5921,507 @@ html.rd-navbar-fixed-linked header {
 	display: block;
 	padding: 6px;
 }
+
+
+
+
+
+/* .naqsh-1 {
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	overflow: hidden;
+	z-index: 1;
+	opacity: 40%;
+	margin-left: 1070px;
+	transform: rotate(0deg);
+}
+
+.naqsh-2 {
+	position: absolute;
+	margin-bottom: 650px;
+	margin-left: -150px;
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+	opacity: 50%;
+	transform: rotate(-30deg);
+}
+
+.naqsh-3 {
+	z-index: 1;
+	position: absolute;
+	margin-top: 510px;
+	margin-left: -150px;
+	width: 300px;
+	height: 150px;
+	overflow: hidden;
+	opacity: 40%;
+	transform: rotate(30deg);
+} 
+*/
+
+.naqsh-4 {
+	z-index: -1;
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 100px;
+	width: 500px;
+	height: 600px;
+	overflow: hidden;
+	opacity: 30%;
+	transform: rotate(0deg);
+}
+
+.naqsh-5 {
+	z-index: 1;
+	position: absolute;
+	margin-top: -113px;
+	margin-left: 950px;
+	width: 500px;
+	height: 700px;
+	overflow: hidden;
+	opacity: 20%;
+	transform: rotate(0deg);
+}
+
+
+
+/* Naqshlar uchun boshlang‘ich holat (pastda va shaffof) */
+.naqsh-1, 
+.naqsh-2, 
+.naqsh-3,
+.naqsh-5,
+.naqsh-6,
+.naqsh-7,
+.naqsh-8,
+.naqsh-9,
+.naqsh-14,
+.naqsh-15,
+.naqsh-16,
+.naqsh-17 {
+    opacity: 0; /* Boshlanishida yashirin bo‘ladi */
+    transform: translateY(50px) scale(0.8) rotate(var(--rotate-value)); /* Pastga suramiz va biroz kichraytiramiz */
+    animation: fadeInUp 1.5s ease-out forwards; /* Animatsiya qo‘shamiz */
+}
+
+/* Har bir naqsh uchun kechikish */
+.naqsh-1 {
+    animation-delay: 0.3s;
+}
+
+.naqsh-2 {
+    animation-delay: 0.6s;
+}
+
+.naqsh-3 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-5 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-6 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-7 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-8 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-9 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-14 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-15 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-16 {
+    animation-delay: 0.9s;
+}
+
+.naqsh-17 {
+    animation-delay: 0.9s;
+}
+
+
+/* Pastdan chiqib kelish animatsiyasi */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.8) rotate(var(--rotate-value)); /* Pastga tushgan holat */
+    }
+    50% {
+        opacity: calc(var(--opacity-value) / 2); /* Yarim shaffoflik */
+        transform: translateY(10px) scale(1.05);
+    }
+    100% {
+        opacity: var(--opacity-value); /* Animatsiyadan keyin asl opacity */
+        transform: translateY(0) scale(1) rotate(var(--rotate-value)); /* Oxirida berilgan rotate saqlanadi */
+    }
+}
+
+/* Siz bergan original naqsh stillari (o‘zgarmaydi) */
+.naqsh-1 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    z-index: 1;
+    --rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 40%; /* Asl opacity */
+    margin-left: 1070px;
+}
+
+.naqsh-2 {
+    position: absolute;
+    margin-bottom: 650px;
+    margin-left: -150px;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    --rotate-value: -30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 50%; /* Asl opacity */
+}
+
+.naqsh-3 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: -150px;
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    --rotate-value: 30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 40%; /* Asl opacity */
+}
+
+.naqsh-5 {
+	z-index: 1;
+	position: absolute;
+	margin-top: -113px;
+	margin-left: 950px;
+	width: 500px;
+	height: 700px;
+	overflow: hidden;
+	opacity: 20%;
+	transform: rotate(0deg);
+	--rotate-value: 30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 40%; /* Asl opacity */
+}
+
+.naqsh-6 {
+	z-index: 0;
+	position: absolute;
+	margin-left: -100px;
+	width: 800px;
+	height: 700px;
+	overflow: hidden;
+	opacity: 30%;
+	transform: rotate(0deg);
+	--rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 30%; /* Asl opacity */
+}
+
+.naqsh-7 {
+	z-index: 0;
+	position: absolute;
+	margin-top: 750px;
+	margin-left: 1000px;
+	width: 300px;
+	height: 120px;
+	overflow: hidden;
+	opacity: 50%;
+	transform: rotate(-35deg);
+	--rotate-value: -35deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 50%; /* Asl opacity */
+}
+
+.naqsh-8 {
+	z-index: 0;
+	position: absolute;
+	margin-left: -50px;
+	width: 350px;
+	height: 820px;
+	overflow: hidden;
+	opacity: 20%;
+	transform: rotate(30deg);
+	--rotate-value: 30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 20%; /* Asl opacity */
+}
+
+.naqsh-9 {
+	z-index: 0;
+	position: absolute;
+	margin-left: -280px;
+	margin-top: 70px;
+	width: 540px;
+	height: 220px;
+	overflow: hidden;
+	opacity: 30%;
+	transform: rotate(-90deg);
+	--rotate-value: -90deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 5%; /* Asl opacity */
+}
+
+.naqsh-10 {
+	z-index: 0;
+	position: absolute;
+	margin-left: 740px;
+	margin-top: 230px;
+	width: 540px;
+	height: 220px;
+	overflow: hidden;
+	opacity: 30%;
+	transform: scaleX(-1);
+}
+
+.naqsh-11 {
+	z-index: 0;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: -95px;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	opacity: 40%;
+	transform: scaleX(-1);
+}
+
+.naqsh-12 {
+	z-index: 0;
+	position: absolute;
+	margin-left: -700px;
+	margin-top: 600px;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	opacity: 50%;
+	transform: rotate(-180deg);
+	transform: rotateX(180deg);
+}
+
+.naqsh-13 {
+	z-index: 99;
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 0px;
+	width: 1140px;
+	height: 450px;
+	opacity: 90%;
+}
+
+.naqsh-14 {
+	z-index: -1;
+	position: absolute;
+	margin-top: -300px;
+	margin-left: -750px;
+	width: 200px;
+	height: 150px;
+	opacity: 20%;
+	transform: rotate(0deg);
+	--rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 20%; /* Asl opacity */
+}
+
+.naqsh-15 {
+	z-index: 0;
+	position: absolute;
+	margin-top: 1550px;
+	margin-left: 450px;
+	width: 200px;
+	height: 150px;
+	opacity: 50%;
+	transform: rotate(180deg);
+	--rotate-value: 180deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 50%; /* Asl opacity */
+}
+
+.naqsh-16 {
+	z-index: 0;
+	position: absolute;
+	margin-top: -100px;
+	margin-left: -100px;
+	width: 300px;
+	height: 850px;
+	opacity: 40%;
+	transform: rotate(30deg);
+	--rotate-value: 30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 40%; /* Asl opacity */
+}
+
+.naqsh-17 {
+	z-index: 0;
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 800px;
+	width: 350px;
+	height: 250px;
+	opacity: 20%;
+	transform: rotate(0deg);
+	--rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+    --opacity-value: 20%; /* Asl opacity */
+}
+
+
+/* Oxirgi card uchun strelkani olib tashlash */
+.post-classic-counter [class*='col-']:last-child .post-classic::after {
+    display: none;
+}
+
+
+/* 3-chi va 5-chi card orasini ochish */
+.post-classic-counter [class*='col-']:nth-child(3) {
+    margin-bottom: 20px; /* Pastga 50px joy qo'shish */
+}
+
+.post-classic-counter [class*='col-']:nth-child(5) {
+    margin-top: 20px; /* Tepaga 50px joy qo'shish */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Til tanlash tugmasi asosiy joylashuvi */
+.language-switcher {
+    position: fixed;
+    top: 25px;
+    right: 150px;
+    z-index: 1000;
+}
+
+/* Tugma styling */
+.lang-btn {
+    background: #ffffff;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.lang-btn:hover {
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+    color: white;
+    border-color: #388e3c;
+}
+
+/* Bayroqcha rasmi */
+.lang-btn .flag-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+/* Dropdown menyu styling */
+.lang-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    list-style: none;
+    padding: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 140px;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Dropdown ichidagi elementlar */
+.lang-dropdown li {
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Har bir link dizayni */
+.lang-dropdown li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover qilinganda fon va animatsiya */
+.lang-dropdown li:hover {
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+}
+
+.lang-dropdown li:hover a {
+    color: white;
+}
+
+/* Bayroqcha rasmi */
+.lang-dropdown li a .flag-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+/* Dropdown ko‘rinishi */
+.language-switcher:hover .lang-dropdown {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Mobil qurilmalar uchun til tanlash tugmachasining joylashuvi */
+@media (max-width: 768px) {
+    .language-switcher {
+        top: 15px;
+        right: 20px; /* Mobil versiyada tugmani ekranga yaqinroq joylashtiramiz */
+    }
+}
+
+/* Dropdown menyuni bosilganda ko‘rsatish uchun */
+.show-dropdown {
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
