@@ -632,7 +632,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-custom-2 img {
 	display: block;
-	max-width: 79.5%;
+	max-width: 89.5%;
 	margin-left: 0;
 	filter: drop-shadow(20px 20px 15px rgba(0, 0, 0, 0.15));
 }
@@ -757,11 +757,54 @@ h3.box-icon-title {
 }
 
 .box-custom-3-img-wrap {
-	position: absolute;
-	margin-top: -20px;
-	margin-left: 0px;
-	transform: rotate(20deg);
+    position: relative; /* Absolute emas, relative bo‘lishi kerak */
+    text-align: center; /* Ichidagi rasmni markazga olish */
+    margin-top: -20px; /* Katta ekranda joylashuvni saqlash */
 }
+
+.box-custom-3-img-wrap img {
+    width: 600px; /* Katta ekranda asl o‘lcham */
+    height: auto;
+    transform: rotate(20deg);
+}
+
+/* Kichik ekranlar va planshetlar uchun */
+@media screen and (max-width: 768px) {
+    .box-custom-3-img-wrap {
+        margin-top: 10px; /* Biroz pastga tushiramiz */
+        text-align: center; /* Rasmni markazga olish */
+    }
+
+    .box-custom-3-img-wrap img {
+        width: 80%; /* Ekranga mos o‘lcham */
+        max-width: 400px; /* Juda katta chiqmasligi uchun */
+        transform: rotate(10deg); /* Kamroq burish */
+    }
+}
+
+/* Telefon ekranlari (480px gacha) */
+@media screen and (max-width: 480px) {
+    .box-custom-3-img-wrap {
+        margin-top: 20px;
+    }
+
+    .box-custom-3-img-wrap img {
+        width: 90%;
+        max-width: 350px;
+        transform: rotate(5deg); /* Telefon ekranda deyarli to‘g‘ri chiqarish */
+    }
+}
+
+/* Eng kichik ekranlar (360px gacha) */
+@media screen and (max-width: 360px) {
+    .box-custom-3-img-wrap img {
+        width: 95%;
+        max-width: 320px;
+        transform: rotate(0deg); /* Eng kichik ekranda butunlay tekis chiqishi */
+    }
+}
+
+
 
 .box-custom-3-img-wrap img {
 	filter: drop-shadow(0 15px 10px rgba(0, 0, 0, 0.2));
@@ -6093,6 +6136,34 @@ html.rd-navbar-fixed-linked header {
     --rotate-value: -30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
     --opacity-value: 50%; /* Asl opacity */
 }
+/* Telefon va kichik ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .naqsh-2 {
+        top: -80px; /* Naqshni yuqoriroq ko‘tarish */
+        left: -60px; /* Juda chapga chiqib ketmasligi uchun */
+        width: 250px; /* Telefon ekrani uchun moslashtirilgan o‘lcham */
+        height: auto; /* Nisbatni saqlash */
+    }
+}
+
+/* Juda kichik telefonlar (480px gacha) */
+@media screen and (max-width: 480px) {
+    .naqsh-2 {
+        top: -100px; /* Eng yuqoriga chiqarish */
+        left: -40px; /* O‘rnini biroz markazga yaqinlashtirish */
+        width: 200px; /* Eng kichik ekranlar uchun hajm */
+    }
+}
+
+/* Eng kichik ekranlar (360px gacha) */
+@media screen and (max-width: 360px) {
+    .naqsh-2 {
+        top: -120px; /* Eng yuqoriga chiqarish */
+        left: -30px; /* Chapga moslash */
+        width: 180px; /* Hajmi minimal ekranda ham to‘g‘ri chiqishi uchun */
+    }
+}
+
 
 .naqsh-3 {
     z-index: 1;
@@ -6105,6 +6176,34 @@ html.rd-navbar-fixed-linked header {
     --rotate-value: 30deg; /* Animatsiyadan keyin saqlanadigan qiymat */
     --opacity-value: 40%; /* Asl opacity */
 }
+/* Telefon va kichik ekranlar (768px gacha) */
+@media screen and (max-width: 768px) {
+    .naqsh-3 {
+        margin-top: 450px; /* Biroz yuqoriga ko'tarish */
+        margin-left: -100px; /* Chapga siljish kamaytirildi */
+        width: 250px; /* Hajm kichraytirildi */
+        height: auto; /* Nisbatni saqlash */
+    }
+}
+
+/* Juda kichik telefonlar (480px gacha) */
+@media screen and (max-width: 480px) {
+    .naqsh-3 {
+        margin-top: 400px; /* Naqshni yana yuqoriga chiqarish */
+        margin-left: -80px; /* Juda chapga chiqmasligi uchun */
+        width: 200px; /* Hajmni moslashtirish */
+    }
+}
+
+/* Eng kichik ekranlar (360px gacha) */
+@media screen and (max-width: 360px) {
+    .naqsh-3 {
+        margin-top: 380px; /* Eng yuqoriga chiqarish */
+        margin-left: -60px; /* Markazga yaqinlashtirish */
+        width: 180px; /* Hajmini moslashtirish */
+    }
+}
+
 
 .naqsh-5 {
 	z-index: 1;
@@ -6132,20 +6231,78 @@ html.rd-navbar-fixed-linked header {
 	--rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
     --opacity-value: 30%; /* Asl opacity */
 }
+/* Katta planshet va kichik ekranlar (768px gacha) */
+@media screen and (max-width: 768px) {
+    .naqsh-6 {
+        width: 600px;  /* Kichraytirish */
+        height: 500px; /* Proportsiyani saqlash */
+        margin-left: -50px; /* Juda chapga chiqmasligi uchun */
+        opacity: 25%; /* Yaxshiroq ko‘rinishi uchun */
+    }
+}
+
+/* Telefon ekranlari (480px gacha) */
+@media screen and (max-width: 480px) {
+    .naqsh-6 {
+        width: 450px;  /* Katta naqshdan qochish */
+        height: 400px;
+        margin-left: -30px; /* Joylashuvni markazga yaqinlashtirish */
+        opacity: 20%; /* Nozik ko‘rinishi uchun */
+    }
+}
+
+/* Eng kichik ekranlar (360px gacha) */
+@media screen and (max-width: 360px) {
+    .naqsh-6 {
+        width: 350px;  /* Eng kichik versiya uchun */
+        height: 300px;
+        margin-left: -20px;
+        opacity: 15%; /* Minimal ekranda yanada yengilroq ko‘rinishi uchun */
+    }
+}
+
 
 .naqsh-7 {
 	z-index: 0;
 	position: absolute;
-	margin-top: 750px;
-	margin-left: 1000px;
-	width: 300px;
-	height: 120px;
+	margin-top: 550px;
+	margin-left: 700px;
+	width: 400px;
+	height: 250px;
 	overflow: hidden;
 	opacity: 50%;
-	transform: rotate(-35deg);
-	--rotate-value: -35deg; /* Animatsiyadan keyin saqlanadigan qiymat */
+	transform: rotate(0deg);
+	--rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
     --opacity-value: 50%; /* Asl opacity */
 }
+/* Kichik telefonlar (portret) */
+@media only screen and (max-width: 480px) {
+    .naqsh-7 {
+        display: none;
+    }
+}
+
+/* Telefonlar va kichik planshetlar (landshaft va portret) */
+@media only screen and (max-width: 768px) {
+    .naqsh-7 {
+        display: none;
+    }
+}
+
+/* Katta planshetlar va kichik laptoplar */
+@media only screen and (max-width: 1024px) {
+    .naqsh-7 {
+        display: none;
+    }
+}
+
+/* O‘rtacha o‘lchamdagi laptoplar */
+@media only screen and (max-width: 1280px) {
+    .naqsh-7 {
+        display: none;
+    }
+}
+
 
 .naqsh-8 {
 	z-index: 0;
@@ -6177,9 +6334,9 @@ html.rd-navbar-fixed-linked header {
 .naqsh-10 {
 	z-index: 0;
 	position: absolute;
-	margin-left: 740px;
+	margin-left: 940px;
 	margin-top: 230px;
-	width: 540px;
+	width: 340px;
 	height: 220px;
 	overflow: hidden;
 	opacity: 30%;
@@ -6189,13 +6346,36 @@ html.rd-navbar-fixed-linked header {
 .naqsh-11 {
 	z-index: 0;
 	position: absolute;
-	margin-left: 250px;
+	margin-left: 350px;
 	margin-top: -95px;
-	width: 400px;
+	width: 300px;
 	height: 200px;
 	overflow: hidden;
 	opacity: 40%;
 	transform: scaleX(-1);
+}
+/* Planshetlar (768px – 1024px gacha) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.naqsh-11 {
+		margin-left: -200px;
+		margin-top: 100px;
+		width: 220px;
+		height: 140px;
+		left: 50%;
+		transform: translateX(-50%) rotateX(180deg);
+	}
+}
+
+/* Telefonlar (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+	.naqsh-11 {
+		margin-left: 115px;
+		margin-top: -500px;
+		width: 150px;
+		height: 100px;
+		left: 50%;
+		transform: scaleX(-1);
+	}
 }
 
 .naqsh-12 {
@@ -6203,23 +6383,77 @@ html.rd-navbar-fixed-linked header {
 	position: absolute;
 	margin-left: -700px;
 	margin-top: 600px;
-	width: 400px;
+	width: 300px;
 	height: 200px;
 	overflow: hidden;
-	opacity: 50%;
-	transform: rotate(-180deg);
+	opacity: 0.5;
 	transform: rotateX(180deg);
 }
 
-.naqsh-13 {
-	z-index: 99;
-	position: absolute;
-	margin-top: 110px;
-	margin-left: 0px;
-	width: 1140px;
-	height: 450px;
-	opacity: 90%;
+/* Planshetlar (768px – 1024px gacha) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.naqsh-12 {
+		margin-left: -200px;
+		margin-top: 100px;
+		width: 220px;
+		height: 140px;
+		left: 50%;
+		transform: translateX(-50%) rotateX(180deg);
+	}
 }
+
+/* Telefonlar (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+	.naqsh-12 {
+		margin-left: -200px;
+		margin-top: -100px;
+		width: 150px;
+		height: 100px;
+		left: 50%;
+		transform: translateX(-50%) rotateX(180deg);
+	}
+}
+
+
+
+
+.naqsh-13 {
+    z-index: 99;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 0px;
+    width: 1140px; /* Default PC versiyasi */
+    height: 450px;
+    opacity: 90%;
+}
+
+/* Mobil qurilmalar uchun media query */
+@media screen and (max-width: 1024px) {
+    .naqsh-13 {
+        width: 90%; /* Kichik ekranlarda rasm o'lchamini moslashtirish */
+        height: auto; /* Nisbatni saqlash */
+        margin-top: 50px; /* Yuqoridan masofa kamaytirildi */
+        left: 50%; /* Markazga joylash */
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .naqsh-13 {
+        width: 95%; /* Yanada kichik ekranda o'lchamini moslashtirish */
+        height: auto;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .naqsh-13 {
+        width: 100%; /* Eng kichik ekranda to'liq sig'ishi uchun */
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
 
 .naqsh-14 {
 	z-index: -1;
@@ -6233,6 +6467,35 @@ html.rd-navbar-fixed-linked header {
 	--rotate-value: 0deg; /* Animatsiyadan keyin saqlanadigan qiymat */
     --opacity-value: 20%; /* Asl opacity */
 }
+/* Kichik telefonlar (portret) */
+@media only screen and (max-width: 480px) {
+    .naqsh-14 {
+        display: none;
+    }
+}
+
+/* Telefonlar va kichik planshetlar (landshaft va portret) */
+@media only screen and (max-width: 768px) {
+    .naqsh-14 {
+        display: none;
+    }
+}
+
+/* Katta planshetlar va kichik laptoplar */
+@media only screen and (max-width: 1024px) {
+    .naqsh-14 {
+        display: none;
+    }
+}
+
+/* O‘rtacha o‘lchamdagi laptoplar */
+@media only screen and (max-width: 1280px) {
+    .naqsh-14 {
+        display: none;
+    }
+}
+
+
 
 .naqsh-15 {
 	z-index: 0;
@@ -6246,6 +6509,34 @@ html.rd-navbar-fixed-linked header {
 	--rotate-value: 180deg; /* Animatsiyadan keyin saqlanadigan qiymat */
     --opacity-value: 50%; /* Asl opacity */
 }
+/* Kichik telefonlar (portret) */
+@media only screen and (max-width: 480px) {
+    .naqsh-15 {
+        display: none;
+    }
+}
+
+/* Telefonlar va kichik planshetlar (landshaft va portret) */
+@media only screen and (max-width: 768px) {
+    .naqsh-15 {
+        display: none;
+    }
+}
+
+/* Katta planshetlar va kichik laptoplar */
+@media only screen and (max-width: 1024px) {
+    .naqsh-15 {
+        display: none;
+    }
+}
+
+/* O‘rtacha o‘lchamdagi laptoplar */
+@media only screen and (max-width: 1280px) {
+    .naqsh-15 {
+        display: none;
+    }
+}
+
 
 .naqsh-16 {
 	z-index: 0;
@@ -6305,10 +6596,11 @@ html.rd-navbar-fixed-linked header {
 
 /* Til tanlash tugmasi asosiy joylashuvi */
 .language-switcher {
-    position: fixed;
-    top: 25px;
-    right: 150px;
+    position: relative;
+    top: 0px;
+    right: -240px;
     z-index: 1000;
+	display: block;
 }
 
 /* Tugma styling */
@@ -6404,7 +6696,7 @@ html.rd-navbar-fixed-linked header {
 @media (max-width: 768px) {
     .language-switcher {
         top: 15px;
-        right: 20px; /* Mobil versiyada tugmani ekranga yaqinroq joylashtiramiz */
+        right: 0px; /* Mobil versiyada tugmani ekranga yaqinroq joylashtiramiz */
     }
 }
 
