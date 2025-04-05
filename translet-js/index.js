@@ -114,6 +114,12 @@ document.addEventListener("DOMContentLoaded", function () {
             home94: "micco-Kivi",
             home95: "micco-Mango",
             home96: "Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish ",
+
+            adash1: "Ba'tafsil",
+            adash2: "Kirish",
+            adash3: "Kirish",
+            adash4: "Ismingiz",
+            adash5: "izohingizni kiriting...",
         },
         en: {
             home1: "Home",
@@ -224,6 +230,12 @@ document.addEventListener("DOMContentLoaded", function () {
             home94: "micco-Kiwi",
             home95: "micco-Mango",
             home96: "All rights reserved. Design and production",
+
+            adash1: "In detail",
+            adash2: "Enter",
+            adash3: "Enter",
+            adash4: "your name",
+            adash5: "enter your comment...",
         },
         ru: {
             home1: "Главная",
@@ -330,10 +342,16 @@ document.addEventListener("DOMContentLoaded", function () {
             home90: "Коммуникация",
             home91: "Продукция Микко",
             home92: "микко-гранат",
-            home93: "micco-Apple",
+            home93: "micco-Яблоко",
             home94: "микко-Киви",
             home95: "микко-Манго",
             home96: "Все права защищены. Дизайн и производство",
+
+            adash1: "Подробно",
+            adash2: "Входить",
+            adash3: "Входить",
+            adash4: "Ваше имя",
+            adash5: "введите свой комментарий...",
         },
         kz: {
             home1: "Басты бөлім",
@@ -440,10 +458,16 @@ document.addEventListener("DOMContentLoaded", function () {
             home90: "Байланыс",
             home91: "Mikko өнімдері",
             home92: "мико гранаты",
-            home93: "micco-Apple",
+            home93: "micco-Алма",
             home94: "Микко-Киви",
             home95: "Мико-манго",
             home96: "Барлық құқықтар қорғалған. Дизайн және өндіріс",
+
+            adash1: "Мәліметтер",
+            adash2: "Енгізіңіз",
+            adash3: "Енгізіңіз",
+            adash4: "сіздің атыңыз",
+            adash5: "өз пікіріңізді жазыңыз...",
         }
     };
 
