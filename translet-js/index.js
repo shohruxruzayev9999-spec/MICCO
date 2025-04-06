@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             home37: "Anor",
             home38: "Biz haqimizda",
-            home39: "Jonlantiruvchi Sof Ichimlik",
+            home39: "Sof tabiiy suv",
             home40: "Micco ichimligi tabiiy tarkibga ega bo‘lib, tanangizni tetiklantiradi, energiya beradi va sog‘lom hayot uchun yordam beradi.",
             home41: "Qaynoq holda quyiladi.",
             home42: "Mahsulot uchun belgilangan narx bozor narxida",
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             home37: "Pomegranate",
             home38: "about Us",
-            home39: "John gives them a clean drink",
+            home39: "Pure Natural Water",
             home40: "Micco drink has natural ingredients that refresh your body, give you energy, and support a healthy lifestyle.",
             home41: "It is poured while boiling.",
             home42: "The price set for the product is at the market price.",
@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             home37: "Гранат",
             home38: "о нас",
-            home39: "Джон дает им чистый напиток",
+            home39: "Чистая природная вода",
             home40: "В состав напитка Micco входят натуральные ингредиенты, которые освежают организм, придают энергию и поддерживают здоровый образ жизни.",
             home41: "Заливается во время кипения.",
             home42: "Цена на продукцию установлена ​​на уровне рыночной.",
@@ -394,7 +394,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             home37: "Анар",
             home38: "біз туралы",
-            home39: "Джон оларға мөлдір сусын береді",
+            home39: "Таза табиғи су",
             home40: "Micco сусынының құрамында денені сергітетін, қуат беретін және салауатты өмір салтын қолдайтын табиғи ингредиенттер бар.",
             home41: "Қайнаған кезде құйылады.",
             home42: "Өнімнің бағасы нарық деңгейінде белгіленеді.",
