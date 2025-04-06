@@ -6369,7 +6369,7 @@ html.rd-navbar-fixed-linked header {
 /* Telefonlar (max-width: 767px) */
 @media only screen and (max-width: 767px) {
 	.naqsh-11 {
-		margin-left: 115px;
+		margin-left: 105px;
 		margin-top: -500px;
 		width: 150px;
 		height: 100px;
@@ -6420,10 +6420,10 @@ html.rd-navbar-fixed-linked header {
 .naqsh-13 {
     z-index: 99;
     position: absolute;
-    margin-top: 110px;
-    margin-left: 0px;
-    width: 1140px; /* Default PC versiyasi */
-    height: 450px;
+    margin-top: 170px;
+    margin-left: -10px;
+    width: 240px; /* Default PC versiyasi */
+    height: 160px;
     opacity: 90%;
 }
 
@@ -6448,9 +6448,52 @@ html.rd-navbar-fixed-linked header {
 
 @media screen and (max-width: 480px) {
     .naqsh-13 {
-        width: 100%; /* Eng kichik ekranda to'liq sig'ishi uchun */
+        width: 100px; /* Eng kichik ekranda to'liq sig'ishi uchun */
+        height: 60px;
+        margin-top: 80px;
+		margin-left: -170px;
+    }
+}
+
+.naqsh-13-1 {
+    z-index: 99;
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 910px;
+    width: 240px; /* Default PC versiyasi */
+    height: 160px;
+    opacity: 90%;
+	transform: scaleX(-1);
+	transform: rotate(180deg);
+}
+
+/* Mobil qurilmalar uchun media query */
+@media screen and (max-width: 1024px) {
+    .naqsh-13-1 {
+        width: 90%; /* Kichik ekranlarda rasm o'lchamini moslashtirish */
+        height: auto; /* Nisbatni saqlash */
+        margin-top: 50px; /* Yuqoridan masofa kamaytirildi */
+        left: 50%; /* Markazga joylash */
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .naqsh-13-1 {
+        width: 95%; /* Yanada kichik ekranda o'lchamini moslashtirish */
         height: auto;
-        margin-top: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .naqsh-13-1 {
+        width: 100px; /* Eng kichik ekranda to'liq sig'ishi uchun */
+        height: 60px;
+        margin-top: 140px;
+		margin-left: 120px;
+		transform: scaleX(-1);
+		transform: rotate(180deg);
     }
 }
 
