@@ -113,13 +113,16 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Olma",
             home94: "micco-Kivi",
             home95: "micco-Mango",
-            home96: "Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish ",
+            home96: "Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish SMK WEB",
 
             adash1: "Ba'tafsil",
             adash2: "Kirish",
             adash3: "Kirish",
             adash4: "Ismingiz",
             adash5: "izohingizni kiriting...",
+            adash6: "micco-Nok",
+            adash7: "micco-Banan",
+
         },
         en: {
             home1: "Home",
@@ -229,13 +232,15 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Apple",
             home94: "micco-Kiwi",
             home95: "micco-Mango",
-            home96: "All rights reserved. Design and production",
+            home96: "All rights reserved. Design and production SMK WEB",
 
             adash1: "In detail",
             adash2: "Enter",
             adash3: "Enter",
             adash4: "your name",
             adash5: "enter your comment...",
+            adash6: "micco-Pear",
+            adash7: "micco-Banana",
         },
         ru: {
             home1: "Главная",
@@ -345,13 +350,15 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Яблоко",
             home94: "микко-Киви",
             home95: "микко-Манго",
-            home96: "Все права защищены. Дизайн и производство",
+            home96: "Все права защищены. Дизайн и производство SMK WEB",
 
             adash1: "Подробно",
             adash2: "Входить",
             adash3: "Входить",
             adash4: "Ваше имя",
             adash5: "введите свой комментарий...",
+            adash6: "микко-Груша",
+            adash7: "микко-Банан",
         },
         kz: {
             home1: "Басты бөлім",
@@ -457,17 +464,19 @@ document.addEventListener("DOMContentLoaded", function () {
             home89: "Клиенттер",
             home90: "Байланыс",
             home91: "Mikko өнімдері",
-            home92: "мико гранаты",
-            home93: "micco-Алма",
+            home92: "миккo-гранаты",
+            home93: "Микко-Алма",
             home94: "Микко-Киви",
-            home95: "Мико-манго",
-            home96: "Барлық құқықтар қорғалған. Дизайн және өндіріс",
+            home95: "Микко-манго",
+            home96: "Барлық құқықтар қорғалған. Дизайн және өндіріс SMK WEB",
 
             adash1: "Мәліметтер",
             adash2: "Енгізіңіз",
             adash3: "Енгізіңіз",
             adash4: "сіздің атыңыз",
             adash5: "өз пікіріңізді жазыңыз...",
+            adash6: "Микко-банан",
+            adash7: "Микко-Алмұрт",
         }
     };
 

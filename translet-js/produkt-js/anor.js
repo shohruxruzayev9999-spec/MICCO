@@ -36,7 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Olma",
             home94: "micco-Kivi",
             home95: "micco-Mango",
-            home96: "Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish ",
+            home96: "Barcha huquqlar himoyalangan. Dizayn va ishlab chiqarish SMK WEB",
+
+            adash6: "micco-Nok",
+            adash7: "micco-Banan",
         },
         en: {
             about1: "Home",
@@ -69,7 +72,10 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Apple",
             home94: "micco-Kiwi",
             home95: "micco-Mango",
-            home96: "All rights reserved. Design and production",
+            home96: "All rights reserved. Design and production SMK WEB",
+
+            adash6: "micco-Pear",
+            adash7: "micco-Banana",
         },
         ru: {
             about1: "Основной раздел",
@@ -102,7 +108,10 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Яблоко",
             home94: "микко-Киви",
             home95: "микко-Манго",
-            home96: "Все права защищены. Дизайн и производство",
+            home96: "Все права защищены. Дизайн и производство SMK WEB",
+
+            adash6: "микко-Груша",
+            adash7: "микко-Банан",
         },
         kz: {
             about1: "Негізгі бөлім",
@@ -135,7 +144,10 @@ document.addEventListener("DOMContentLoaded", function () {
             home93: "micco-Алма",
             home94: "Микко-Киви",
             home95: "Мико-манго",
-            home96: "Барлық құқықтар қорғалған. Дизайн және өндіріс",
+            home96: "Барлық құқықтар қорғалған. Дизайн және өндіріс SMK WEB",
+
+            adash6: "Микко-банан",
+            adash7: "Микко-Алмұрт",
         }
     };
 
