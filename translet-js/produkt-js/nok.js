@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             nok1: "micco Nok Tamligi",
             nok2: "Nok ta’miga ega",
-            nok3: "Micco - tabiiy nok ta'mli ichimlik bo'lib, sizni silliq va yoqimli ta'mi bilan tetiklashtiradi. Har bir qultum tanangizni namlaydi va chanqog'ingizni qondiradi.",
+            nok3: "Micco — nafis ta’mi bilan sizni zavqlantiradigan noodatiy ichimlik. Uning mayin va yoqimli ta’mi sizga tetiklik baxsh etadi. Har bir qultumi organizmingizni namlantirib, chanqog‘ingizni qondiradi.",
             nok4: "Tabiiy tetiklik manbai <br> Nok o‘zining yengil va mayin ta’mi bilan organizmga tabiiy quvvat bag‘ishlaydi. <br> Micco nok ichimligi kun davomida tetik va faol bo‘lishga yordam beradi.",
             nok5: "Tinchlantiruvchi ta’sirga ega <br> Nok mevasida organizmni bo‘shashtiruvchi tabiiy moddalar mavjud bo‘lib, Micco ichimligi stress va charchoqni kamaytirishga yordam beradi.",
             nok6: "Dalada ham, sport zalida ham ideal ichimlik <br> Micco nok ichimligi nafaqat issiq kunlarda chanqoqbosdi, balki sport bilan shug‘ullanayotganlar uchun ham mukammal tanlov. <br> U organizmning suyuqlik balansini saqlashga yordam beradi.",
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             nok1: "micco Pear Filling",
             nok2: "It tastes like pear.",
-            nok3: "Micco is a natural pear-flavored drink that will refresh you with its smooth and pleasant taste. Every sip will hydrate your body and quench your thirst.",
+            nok3: "Micco is an extraordinary drink that delights you with its delicate flavor. Its smooth and pleasant taste brings you refreshment. Each sip hydrates your body and quenches your thirst.",
             nok4: "A natural source of refreshment <br> Pear, with its light and delicate taste, gives the body a natural boost of energy. <br> Micco pear drink helps you stay refreshed and active throughout the day.",
             nok5: "Has a calming effect <br> Pear fruit contains natural substances that relax the body, and Micco drink helps reduce stress and fatigue.",
             nok6: "The ideal drink for both the field and the gym <br> Micco pear drink is not only a thirst quencher on hot days, but also a perfect choice for those involved in sports. <br> It helps maintain the body's fluid balance.",
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             nok1: "Начинка из груши микко",
             nok2: "На вкус как груша.",
-            nok3: "Micco — это натуральный напиток со вкусом груши, который освежает вас своим мягким и приятным вкусом. Каждый глоток увлажняет ваш организм и утоляет жажду.",
+            nok3: "Micco — необычный напиток, который радует вас своим изысканным вкусом. Его нежный и приятный вкус дарит бодрость. Каждый глоток увлажняет организм и утоляет жажду.",
             nok4: "Натуральный источник освежения. <br> Груша, с ее легким и нежным вкусом, дает организму естественный заряд энергии. <br> Грушевый напиток «Микко» поможет вам оставаться свежими и активными в течение дня.",
             nok5: "Оказывает успокаивающее действие. Плоды груши содержат натуральные вещества, которые расслабляют организм, а напиток «Микко» помогает снять стресс и усталость.",
             nok6: "Идеальный напиток как для игры, так и для спортзала. <br> Напиток из груши Микко не только утоляет жажду в жаркие дни, но и является идеальным выбором для тех, кто занимается спортом. <br> Он помогает поддерживать баланс жидкости в организме.",
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             nok1: "Микко алмұрт салмасы",
             nok2: "Дәмі алмұрт сияқты.",
-            nok3: "Micco - табиғи алмұрт хош иісті сусын, ол сізді тегіс және жағымды дәмімен сергітеді. Әрбір жұтым денеңізді ылғалдандырады және шөліңізді басады.",
+            nok3: "Micco — ерекше әрі нәзік дәмімен сізді қуантатын сусын. Оның жұмсақ әрі жағымды дәмі сізге сергектік сыйлайды. Әрбір ұрттам денеңізді ылғалдандырып, шөліңізді қандырады.",
             nok4: "Сергітудің табиғи көзі. <br> Алмұрт өзінің жеңіл және нәзік дәмімен денеге табиғи қуат береді. <br> Микко алмұрт сусыны күні бойы сергек және белсенді болуға көмектеседі.",
             nok5: "Тыныштандыратын әсері бар. Алмұрт жемістерінде денені босаңсытатын табиғи заттар бар, ал Микко сусыны стресс пен шаршауды жеңілдетуге көмектеседі.",
             nok6: "Ойынға да, жаттығу залына да тамаша сусын. <br> Микко алмұрт сусыны ыстық күндерде шөлді қандырып қана қоймайды, сонымен қатар спортпен айналысатындар үшін тамаша таңдау болып табылады. <br> Ол ағзадағы сұйықтық балансын сақтауға көмектеседі.",

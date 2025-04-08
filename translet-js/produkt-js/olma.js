@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             olma1: "micco Olma Tamligi",
             olma2: "Olma ta’miga ega",
-            olma3: "Micco — tabiiy olmadan tayyorlangan ichimlik bo‘lib, tetiklik bag‘ishlab, tanangizga yangi quvvat baxsh etadi. Har bir qultum Micco bilan olma lazzatini his qilib, o‘zingizni tetik va bardam sezishingiz mumkin.",
+            olma3: "Micco — kuningizni yorqin va energiyaga boy boshlash uchun ajoyib tanlov. Tetiklik bag‘ishlab, tanangizga yangi quvvat baxsh etadi. Har bir qultum Micco bilan olma lazzatini his qilib, o‘zingizni tetik va bardam sezishingiz mumkin.",
             olma4: "Micco Olma Tamining Foydali Tomonlari: <br> Micco olma ta’mli ichimligi tabiiy tarkibi va foydali xususiyatlari bilan ajralib turadi. Ushbu ichimlik sog‘liq uchun bir qancha muhim afzalliklarga ega:",
             olma5: "Tabiiy vitamin manbai <br> Micco olma ta’mli ichimligi tarkibida tabiiy olmalardan olingan vitaminlar, ayniqsa C vitamini ko‘p bo‘lib, immunitetni mustahkamlashga yordam beradi.",
             olma6: "Sun’iy qo‘shimchalarsiz <br> Micco olma ta’mli ichimligi sun’iy rang va konservantlarsiz tayyorlangan bo‘lib, tabiiyligi bilan ajralib turadi. U har qanday yoshdagi insonlar uchun foydali tanlovdir.",
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             olma1: "micco Apple Pie",
             olma2: "Apple has a taste",
-            olma3: "Micco is a drink made from natural apples that will refresh and give your body new energy. With every sip of Micco, you can feel the apple flavor and feel refreshed and energetic.",
+            olma3: "Micco is a perfect choice to start your day bright and full of energy. It refreshes you and gives your body new strength. With every sip of Micco, you feel the taste of apple and a burst of freshness.",
             olma4: "Benefits of Micco Apple Flavor: <br> Micco apple flavor drink is distinguished by its natural composition and beneficial properties. This drink has several important health benefits:",
             olma5: "A natural source of vitamins <br> Micco apple-flavored drink is rich in vitamins from natural apples, especially vitamin C, which helps strengthen immunity.",
             olma6: "Without artificial additives <br> Micco apple-flavored drink is made without artificial colors and preservatives, and is characterized by its naturalness. It is a healthy choice for people of all ages.",
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             olma1: "яблочный пирог микко",
             olma2: "У Apple есть вкус",
-            olma3: "Micco — напиток из натуральных яблок, который освежит и придаст вашему телу новую энергию. С каждым глотком Micco вы почувствуете вкус яблока и почувствуете себя обновленным и энергичным.",
+            olma3: "Micco — отличный выбор для яркого и энергичного начала дня. Он дарит бодрость и наполняет ваше тело новой силой. С каждым глотком Micco вы чувствуете вкус яблока и прилив энергии.",
             olma4: "Преимущества напитка Micco Apple Flavor:<br> Напиток Micco Apple Flavor отличается натуральным составом и полезными свойствами. Этот напиток имеет ряд важных преимуществ для здоровья:",
             olma5: "Натуральный источник витаминов <br> Напиток «Микко» со вкусом яблок богат витаминами из натуральных яблок, особенно витамином С, который способствует укреплению иммунитета.",
             olma6: "Без искусственных добавок <br> Напиток Micco со вкусом яблока производится без искусственных красителей и консервантов, отличается натуральностью. Это здоровый выбор для людей всех возрастов.",
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             olma1: "алма бәліш микко",
             olma2: "Алманың дәмі бар",
-            olma3: "Micco - бұл табиғи алмадан жасалған сусын, денеңізді сергітіп, жаңа қуат береді. Micco-ны әр жұтым ішкен сайын алманың дәмін татып, сергек және жігерлі сезінесіз.",
+            olma3: "Micco — күніңізді жарқын және қуатқа толы бастау үшін керемет таңдау. Ол сергектік сыйлап, денеңізге жаңа күш береді. Әрбір ұрттам Micco арқылы алманың дәмін сезіп, өзіңізді сергек әрі жігерлі сезінесіз.",
             olma4: "Micco Apple Flavor сусынының артықшылықтары:<br> Micco Apple Flavor сусынының табиғи құрамы мен пайдалы қасиеттері бар. Бұл сусынның денсаулыққа пайдалы бірқатар маңызды қасиеттері бар:",
             olma5: "Дәрумендердің табиғи көзі <br> Алма хош иісті Микко сусыны табиғи алмадан алынған дәрумендерге, әсіресе иммундық жүйені нығайтуға көмектесетін С витаминіне бай.",
             olma6: "Жасанды қоспаларсыз <br> Micco алма хош иісті сусын жасанды бояғыштарсыз және консерванттарсыз шығарылады және табиғи. Бұл барлық жастағы адамдар үшін сау таңдау.",
